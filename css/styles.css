@@ -1,1 +1,77 @@
+body {
+  font-size: 16px;
+  color: #000;
+  background-color: #fff;
+  font-family: 'Arial', sans-serif;
+}
 
+/** HEADER **/
+#header-nav {
+  background-color: #B6E2D3;
+  border-radius: 0;
+  border: 0;
+  padding-bottom: 15px;
+}
+
+.navbar-brand {
+  padding-top: 25px;
+}
+
+.navbar-brand h1 { /* Restaurant name */
+  font-family: 'Arial', serif;
+  color: #000000;
+  font-size: 1.5em;
+  font-weight: bold;
+  margin-top: 0;
+  margin-bottom: 0;
+  line-height: .75;
+}
+.navbar-brand a:hover, .navbar-brand a:focus {
+  text-decoration: none;
+}
+
+.navbar-header button.navbar-toggle, .navbar-header .icon-bar {
+	border: 1px solid #EF7C8E;
+}
+
+.navbar-default .navbar-nav>.active>a, .navbar-default .navbar-nav>.active>a:focus, .navbar-default .navbar-nav>.active>a:hover {
+    color: #555;
+    background-color: #FAE8E0;
+    text-align: center;
+}   
+
+.navbar-header button.navbar-toggle {
+  clear: both;
+  margin-top: -30px;
+}
+
+#nav-list a {
+  color: #000000;
+  text-align: center;
+}
+#nav-list a:hover {
+  background: #fff;
+}
+
+.title {
+	text-align: center;
+	font-weight: bold;
+
+}
+.foodExplained 
+ {
+	border: 0px;
+	background-color: #D8A7B1;
+	color: black;
+	margin-left: 10px; 
+	margin-top: 10px;
+	margin-bottom: 10px;
+	padding-top: 10px;
+}
+
+.foodText {
+	padding-top: 5px;
+	padding-bottom: 5px;
+	padding-left: 15px;
+	padding-right: 15px;
+	}
